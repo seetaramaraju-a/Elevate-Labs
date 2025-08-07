@@ -1,0 +1,40 @@
+# Task 2 Phishing Email Analysis Report
+
+## 📧 Sample Analyzed
+- Subject Response Required
+- Sender service@intl.paypal.com service-paypal@outlook.com
+
+## ⚠️ Phishing Indicators
+
+1. Spoofed Sender Email
+   - Sender claims to be from PayPal but the domain is actually `@outlook.com`.
+   - Legitimate companies don’t send from free public email providers.
+
+2. Urgent Language
+   - Uses phrases like “Response required” and “unusual log in activity” to create panic.
+
+3. Fake Resolution Link
+   - Prompts users to log in and click Resolution Center — classic trick to steal credentials.
+   - The actual destination of the link may lead to a fake PayPal login page.
+
+4. No Personalized Greeting
+   - Starts with “Dear” but does not include recipient’s name — a common sign of mass phishing.
+
+5. Grammatical Phrasing Issues
+   - Phrases like “Thank you for being a PayPal customer.” sound generic and suspicious.
+
+6. Display Name vs. Real Email
+   - `service@intl.paypal.com` is masked but the real sender is `service-paypal@outlook.com`.
+
+## 🔧 Tools Used
+- Manual inspection of email structure
+- Email header and link verification (hypothetical)
+- Screenshot highlighting
+
+## ✅ Summary
+This is a credential phishing attempt disguised as a PayPal alert. It uses social engineering tactics (fear and urgency) to trick users into logging into a fake website. The use of a public email domain is a clear giveaway.
+
+## 🧠 Learnings
+- Always verify the sender domain
+- Hover over links before clicking
+- Lack of personalization is a red flag
